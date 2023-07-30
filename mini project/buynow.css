@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(180, 216, 248);
+    color: whitesmoke;
+    height: 5rem;
+    /* position: fixed; */
+    font-size: 1.5rem;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+nav a{
+    transition: ease 0.3s;
+}
+nav a:hover{
+    transform: scale(0.9);
+    color: black;
+}
+nav a:active{
+    color: black;
+}
+.search{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.search input{
+    border: 1px solid transparent;
+    outline: none;
+}
+.search i{
+    color: black;
+}
+.maincont{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+.buynow-box {
+    height: 18rem;
+    width: 16rem;
+    border: .2rem solid black;
+    margin-left: 2rem; 
+    border-radius: 30px;
+    background-color: rgb(255, 116, 66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.buynow-box-image{
+    /* border: 1px solid black; */
+    width: 10vw;
+    height: 10vw;
+    /* margin-top: 1rem;
+    margin-left: 3rem; */
+}
+.buynow-box-image img{
+    width: 10vw;
+    height: 10vw;
+}
+.buynow-box h3{
+    text-align: center;
+    margin-top: 1rem;
+}
+.buynow-box button{
+    font-size: 1rem;
+    /* position: relative; */
+    margin-top: 1rem;
+    background-color: rgb(8, 233, 42);
+    border-radius: 5px;
+    transition: .3s ease;
+}
+.buynow-box button:hover{
+    transform: scale(1.1);
+}
